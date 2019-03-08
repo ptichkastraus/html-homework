@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="cropped-FAVICON-1.png">
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <legend> Форма регистрации</legend>
+      <p>
+      <!--  <label for="log"><strong>Логин</strong></label>-->
+        <input id="log" name="login" minlength="6" maxlength="18" required placeholder="Логин">
+      </p>
+      <p>
+        <!--<label for="pass"><strong>Пароль</strong></label>-->
+      <input id="pass"type="password" minlength="4" maxlength="10" required placeholder="Пароль">
+    </p>
+    <p>
+      <!--<label for="pass2"><strong>Подтверждение пароля</strong></label>-->
+      <p><input id="pass2"type="password"minlength="4" maxlength="10" required placeholder="Подтверждение пароля"></p>
+    </p>
+    <p>
+      <input id="im" type="file" multiple accept="image/*">
+    </p>
+    <p>
+      <input type="submit" value="Отправить">
+    </p>
+    </fieldset>
+    </form>
+
+  </body>
+</html>
