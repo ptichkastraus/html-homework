@@ -8,12 +8,16 @@ h1, h2 {
   color: #200772;
   font-family: 'Lora', serif;
 }
-div.ground {
-  background: #6C8CD5;
-  margin: 60px 10px 60px 60px;
+.head1{
+  text-align: center;
+}
+div {
+  margin: 60px;
   padding: 40px;
 }
-
+.ground{
+    background: #6C8CD5;
+}
 p a {
   color:#06266F;
 }
@@ -28,9 +32,6 @@ button.style a {
   height: 100%;
   color: #06266F;
 }
- /*button a {
-  font-family: 'Slabo 27px', serif;
-  text-decoration: none;
-  display:block;
-  height: 100%;
-}*/
+.post__time {
+  margin: 5px;
+}
