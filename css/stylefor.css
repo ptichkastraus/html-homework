@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Srisakdi:700');
+nav li {
+  display: inline-block;
+  background: #FFD873;
+  border: 1px solid #FFAB00;
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px 5px 5px;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background: url(../image/sw8YjvnZpEU.jpg);
+  background-attachment: fixed;
+  font-family: 'Raleway', sans-serif;
+}
+
+nav a {
+  display: block;
+  height: 5%;
+  text-decoration: none;
+  color: #A60000;
+}

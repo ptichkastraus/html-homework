@@ -11,7 +11,7 @@
       <legend>Форма регистрации</legend>
       <p>
 <label for="seminar"> Выберите семинар</label>
-<select id="seminar" name="select" autofocus>
+<select id="seminar" name="seminar" autofocus>
   <option value="1">История создания картины "Апофеоз войны"</option>
   <option value="2"> История создания картины "Смертельно раненый"</option>
   <option value="2"> История создания картины "После удачи"</option>
@@ -19,7 +19,7 @@
       </p>
       <p>
       <label for="date"> Выберите дату</label>
-      <select id="date" name="select">
+      <select id="date" name="date">
         <option value="1">20 марта 2019</option>
         <option value="2"> 23 марта 2019</option>
         <option value="2"> 26 марта 2019</option>
@@ -27,11 +27,11 @@
       </p>
       <p>
     <label for="time">Выберите удобное для вас время</label>
-    <input id="time" type="time" min="16:00" max="20:00">
+    <input id="time" type="time" name="time" min="16:00" max="20:00">
       </p>
       <p>
       <label for="pay"> Стоимость</label>
-      <select id="pay" name="select">
+      <select id="pay" name="pay">
         <option value="1">500 рублей за 1 участника</option>
         <option value="2"> 950 за 2 участников </option>
         <option value="2"> 2000 рублей за группу от 5 до 8 человек</option>
@@ -49,23 +49,23 @@
         </p>
         <p>
 <label for="surname">Фамилия</label>
-<input id="surname" type="text" name="" value="" required>
+<input id="surname" type="text" name="surname"  required>
         </p>
         <p>
 <label for="name">Имя</label>
-<input id="name" type="text" requared>
+<input id="name" type="text" name="name" requared>
         </p>
         <p>
 <label for="sm">Отчество</label>
-<input id="sm" type="text" placeholder="при наличии">
+<input id="sm" type="text" name="sm" placeholder="при наличии">
         </p>
         <p>
 <label for="mail">Эл.почта</label>
-<input id="mail" type="email" required>
+<input id="mail" type="email" name="email" required>
         </p>
         <p>
 <label for="number">Номер телефона</label>
-<input id="number" type="text" required placeholder="+7(999)999-99-99">
+<input id="number" type="text" required placeholder="+7(999)999-99-99" name="number">
         </p>
         <p>
         <label> Дополнительные пожелания</label>
@@ -74,16 +74,16 @@
     <textarea  name="name" rows="20" cols="40"></textarea>
     </p>
     <p>
-      <label><input type="checkbox" name="answer" required> Я согласен(-а) <a href="pdf/Soglasie.pdf">на обработку персональных данных</a> </label>
+      <label><input type="checkbox" name="agrid" required> Я согласен(-а) <a href="pdf/Soglasie.pdf">на обработку персональных данных</a> </label>
     </p>
     <p>
-<input type="reset" name="" value="очистить">
+<input type="reset" name="reset" value="очистить">
     </p
       </fieldset>
 
     </fieldset>
     <p>
-  <input type="submit" name="" value="отправить">
+  <input type="submit" name="submit" value="отправить">
     </p>
   </form>
   </body>
