@@ -1,0 +1,50 @@
+@import url("grid.css");
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.slider {
+  position: absolute;
+  padding: 0;
+  margin: 0 0 30px;
+  border: 1px solid black;
+  height: 200px;
+  top:120px;
+  left: 0;
+  right: 0;
+}
+
+.slider li {
+  display: none;
+
+}
+.slider li.active {
+  display: block;
+}
+.card {
+  border: 1px solid black;
+  height: 200px;
+  margin: 5px;
+}
+.left {
+  height: 625px;
+}
+.menu li{
+  position: fixed;
+  border: 1px solid black;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+.height {
+	position: relative;
+	top: -936px;
+  height:
+}
+.block{
+  position: relative;
+  top: 300px;
+}
